@@ -1,15 +1,14 @@
 :root {
 	/* Neutral colors */
-	--neutral-darker: #1c1d21;
-	--neutral-background: #212229;
-	--neutral-surface: #2a2c34;
-	--neutral-header: #33353f;
-	--neutral-text: #f5f5f5;
+	--neutral-darker: hsl(240, 20%, 11%);
+	--neutral-surface: hsl(240, 12%, 18%);
+	--neutral-header: hsl(240, 12%, 22%);
+	--neutral-text: hsl(0, 0%, 96%);
 	/* Primary colors */
-	--primary-highlight: #7693ff;
+	--primary-highlight: #6ad8f3;
 	/* Secondary colors */
-	--secondary-income: #d6ff62;
-	--secondary-expense: #f87828;
+	--secondary-income: #62ffb0;
+	--secondary-expense: hsl(352, 88%, 62%);
 }
 * {
 	font-family: "Work Sans", sans-serif;

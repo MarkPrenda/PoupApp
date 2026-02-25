@@ -1,0 +1,38 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: space-between;
+	height: 100%;
+	margin-top: 8px;
+}
+
+.list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	margin-bottom: 48px;
+	display: flex;
+	flex-direction: column;
+}
+
+.list li {
+	border-bottom: 1px solid var(--neutral-header);
+	padding-bottom: 16px;
+	margin-bottom: 16px;
+}
+
+.list li:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.buttonContainer button:hover {
+	color: var(--primary-highlight);
+}

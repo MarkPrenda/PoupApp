@@ -1,0 +1,22 @@
+.btn {
+	background-color: transparent;
+	border: none;
+	box-shadow: 0px 0px 0px 1px var(--neutral-text);
+	color: var(--neutral-text);
+	padding: 12px 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	gap: 8px;
+	border-radius: 24px;
+	font-size: 16px;
+	line-height: 120%;
+}
+
+.btn:hover {
+	box-shadow: 0px 0px 0px 2px var(--primary-highlight);
+	border: none;
+	color: var(--primary-highlight);
+	background-color: rgba(0, 0, 0, 0.3);
+}
